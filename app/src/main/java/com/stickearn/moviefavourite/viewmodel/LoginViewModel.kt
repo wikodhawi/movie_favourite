@@ -26,37 +26,36 @@ class LoginViewModel (private val loginRepository: LoginRepository,
         }
     }
 
-    fun loginWorker(){
-        isLoading.postValue(true)
-        viewModelScope.launch {
-            try {
-                val response = loginRepository.loginApi(email, password)
-                if(response.errorMessage.isNullOrBlank())
-                {
-                    workerLogin.postValue(response)
-                }
-                else
-                {
-                    errorLogin.postValue(R.string.srFailedToLoginPleaseCheckYourUsernameAndPassword)
-                }
-                isLoading.postValue(false)
-            }
-            catch (e: Exception)
-            {
-                when(e) {
-                    is UnknownHostException -> {
-                        errorLogin.postValue(R.string.srSomethingWentWrongPleaseTryAgainLater)
-                    }
-                    is HttpException -> {
-                        errorLogin.postValue(R.string.srServerError)
-                    }
-                    else -> {
-                        errorLogin.postValue(R.string.srServerError)
-                    }
-                }
-                isLoading.postValue(false)
-            }
-        }
-    }
-
+//    fun loginWorker(){
+//        isLoading.postValue(true)
+//        viewModelScope.launch {
+//            try {
+//                val response = loginRepository.loginApi(email, password)
+//                if(response.errorMessage.isNullOrBlank())
+//                {
+//                    workerLogin.postValue(response)
+//                }
+//                else
+//                {
+//                    errorLogin.postValue(R.string.srFailedToLoginPleaseCheckYourUsernameAndPassword)
+//                }
+//                isLoading.postValue(false)
+//            }
+//            catch (e: Exception)
+//            {
+//                when(e) {
+//                    is UnknownHostException -> {
+//                        errorLogin.postValue(R.string.srSomethingWentWrongPleaseTryAgainLater)
+//                    }
+//                    is HttpException -> {
+//                        errorLogin.postValue(R.string.srServerError)
+//                    }
+//                    else -> {
+//                        errorLogin.postValue(R.string.srServerError)
+//                    }
+//                }
+//                isLoading.postValue(false)
+//            }
+//        }
+//    }
 }

@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">PT Bintang Toedjoe</string>
+    <string name="app_name">Movie Favourite</string>
     <string name="action_sign_in">Log In</string>
     <string name="welcome">"Welcome"</string>
     <string name="register">Register</string>
@@ -16,5 +16,8 @@
     <string name="srPleaseInputRegisteredEmail">Please insert registered email</string>
     <string name="srPleaseInputPassword">Please input your password</string>
     <string name="srFailedToLoginPleaseCheckYourUsernameAndPassword">Failed to login, please check your email or password</string>
-
+    <string name="popular_movie">Popular Movie</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="movie">Movie</string>
 </resources>

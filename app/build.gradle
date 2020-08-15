@@ -19,17 +19,23 @@ android {
 
     buildTypes {
         def BASE_URL = "BASE_URL"
+        def API_KEY = "API_KEY"
+        def BASE_IMAGE_URL = "BASE_IMAGE_URL"
         release {
             minifyEnabled false
             shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            buildConfigField "String", BASE_URL, "\"http://192.168.43.69:85/\""
+            buildConfigField "String", API_KEY, "\"ae9fe90e99a9f97c85099d41ec148e54\""
+            buildConfigField "String", BASE_IMAGE_URL, "\"http://image.tmdb.org/t/p/w500\""
+            buildConfigField "String", BASE_URL, "\"https://api.themoviedb.org/3/\""
         }
         debug{
             minifyEnabled false
             shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            buildConfigField "String", BASE_URL, "\"http://192.168.43.69:85/\""
+            buildConfigField "String", API_KEY, "\"ae9fe90e99a9f97c85099d41ec148e54\""
+            buildConfigField "String", BASE_IMAGE_URL, "\"http://image.tmdb.org/t/p/w500\""
+            buildConfigField "String", BASE_URL, "\"https://api.themoviedb.org/3/\""
         }
     }
 

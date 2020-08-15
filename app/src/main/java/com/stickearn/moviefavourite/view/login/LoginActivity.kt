@@ -13,7 +13,7 @@ import com.stickearn.moviefavourite.model.entity.DummyEntity
 import com.stickearn.moviefavourite.service.database.dao.DummyEntityDao
 import com.stickearn.moviefavourite.utilities.PrefHelper
 import com.stickearn.moviefavourite.utilities.extension.setOnSafeClickListener
-import com.stickearn.moviefavourite.view.main.MainActivity
+import com.stickearn.moviefavourite.view.main.activity.MainActivity
 import com.stickearn.moviefavourite.viewmodel.LoginViewModel
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.MainScope
@@ -104,6 +104,6 @@ class LoginActivity : BaseActivity() {
 
     private fun actionLogin()
     {
-        viewModel.loginWorker()
+//        viewModel.loginWorker()
     }
 }

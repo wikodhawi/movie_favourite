@@ -6,4 +6,5 @@
     <color name="colorTextInputError">#f20808</color>
 
     <color name="md_white_1000">#ffffff</color>
+    <color name="colorLoading">#858282</color>
 </resources>

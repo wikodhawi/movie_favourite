@@ -8,10 +8,11 @@ import org.koin.dsl.module
 
 val viewModelModule = module {
     factory { LoginViewModel(get(), get()) }
-    factory { MainViewModel() }
+    factory { MainViewModel(get()) }
 }
 
 
 open class BaseViewModel : ViewModel() {
     val isLoading = MutableLiveData<Boolean>()
+    val errorMessage = MutableLiveData<String>()
 }

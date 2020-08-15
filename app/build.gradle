@@ -1,0 +1,145 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.stickearn.moviefavourite"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        def BASE_URL = "BASE_URL"
+        release {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField "String", BASE_URL, "\"http://192.168.43.69:85/\""
+        }
+        debug{
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField "String", BASE_URL, "\"http://192.168.43.69:85/\""
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+
+    buildFeatures {
+        viewBinding true
+        dataBinding true
+    }
+
+    kapt {
+        generateStubs = true
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "androidx.appcompat:appcompat:$appcompat_version"
+    implementation "androidx.core:core-ktx:$core_version"
+    implementation "androidx.activity:activity-ktx:$activity_ktx_version"
+    implementation "androidx.constraintlayout:constraintlayout:$constraint_version"
+    implementation "androidx.legacy:legacy-support-v4:$legacy_support_version"
+
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofit_version"
+    implementation "com.squareup.okhttp3:logging-interceptor:$logging_interceptor_version"
+
+    // Glide
+    implementation "com.github.bumptech.glide:glide:$glide_version"
+    kapt "com.github.bumptech.glide:compiler:$glide_version"
+
+    // Lifecycle
+    implementation "android.arch.lifecycle:extensions:$lifecycle_extensions_version"
+
+    // Circle Image View
+    implementation "de.hdodenhof:circleimageview:$circle_image_view_version"
+
+    // ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-reactivestreams-ktx:$lifecycle_version"
+    testImplementation "androidx.arch.core:core-testing:$arch_version"
+
+    // Coroutine
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutine_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutine_version"
+
+    // Material Design
+    implementation "com.google.android.material:material:$material_design_version"
+
+    //shimmer
+    implementation "com.facebook.shimmer:shimmer:$shimmer_version"
+
+    //paging
+    implementation "androidx.paging:paging-runtime:$paging_version"
+
+    // Dependencies for local unit tests
+    testImplementation "junit:junit:$junit_version"
+    testImplementation "androidx.test.ext:junit:$ext_junit_version"
+    androidTestImplementation "androidx.test.ext:junit:$ext_junit_version"
+    androidTestImplementation "androidx.test.ext:junit-ktx:$ext_junit_version"
+    testImplementation "org.hamcrest:hamcrest-all:$hamcrest_version"
+    testImplementation "org.mockito:mockito-core:$mockito_core_version"
+    testImplementation "androidx.arch.core:core-testing:$core_testing_version"
+
+    // Dependencies for Android unit tests
+    androidTestImplementation "junit:junit:$junit_version"
+    androidTestImplementation "org.mockito:mockito-core:$mockito_core_version"
+    testImplementation "org.mockito:mockito-inline:$mockito_core_version"
+    testImplementation "com.squareup.okhttp3:mockwebserver:$okhttp_version"
+    testImplementation "com.squareup.okhttp3:okhttp:$okhttp_version"
+
+    // Android Testing Support Library's runner and rules
+    androidTestImplementation "androidx.test.ext:junit:$est_junit_version"
+    androidTestImplementation "androidx.test:core:$test_core_rule_version"
+    androidTestImplementation "androidx.test:rules:$test_core_rule_version"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espresso_version"
+    androidTestImplementation "androidx.test.espresso:espresso-contrib:$espresso_version"
+    androidTestImplementation "androidx.arch.core:core-testing:$core_testing_version"
+
+    testImplementation "org.json:json:$json_version"
+
+    // Dependencies for Idle Resource
+    implementation "androidx.test.espresso:espresso-idling-resource:$espresso_version"
+
+    // Room
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+    implementation "androidx.room:room-rxjava2:$room_version"
+    implementation "androidx.room:room-ktx:$room_version"
+
+    // SQL Chipper
+    implementation "net.zetetic:android-database-sqlcipher:$sql_cipher"
+
+    def koin_version = "2.0.1"
+    implementation "org.koin:koin-android:$koin_version"
+    // use org.koin:koin-android-viewmodel instead for non-androidx projects!
+    implementation "org.koin:koin-androidx-viewmodel:$koin_version"
+    implementation "org.koin:koin-core:$koin_version"
+}

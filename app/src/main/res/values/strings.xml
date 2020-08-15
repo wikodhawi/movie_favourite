@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">PT Bintang Toedjoe</string>
+    <string name="action_sign_in">Log In</string>
+    <string name="welcome">"Welcome"</string>
+    <string name="register">Register</string>
+
+    <string name="registered_password">Registered Password</string>
+    <string name="please_login_to_access_full_feature">Please Log In to access full feature</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="did_not_have_account">"You don\'t have account? "</string>
+    <string name="copyright">Copyright 2020 </string>
+    <string name="registeredEmail">Registered Email</string>
+    <string name="srServerError">Server Error</string>
+    <string name="srSomethingWentWrongPleaseTryAgainLater">Something went wrong, please try again later</string>
+    <string name="srPleaseInputRegisteredEmail">Please insert registered email</string>
+    <string name="srPleaseInputPassword">Please input your password</string>
+    <string name="srFailedToLoginPleaseCheckYourUsernameAndPassword">Failed to login, please check your email or password</string>
+
+</resources>

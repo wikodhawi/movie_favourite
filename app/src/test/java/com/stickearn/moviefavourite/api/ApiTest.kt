@@ -46,24 +46,36 @@ class ApiTest {
         runBlocking {
             enqueueResponse("now_playing_movie.json")
             val resultResponse = service.getNowPlaying(BuildConfig.API_KEY)
-
             val request = mockWebServer.takeRequest(1, TimeUnit.SECONDS)
             Assert.assertNotNull(resultResponse)
             Assert.assertThat(request!!.path, CoreMatchers.`is`("/movie/now_playing?api_key=${BuildConfig.API_KEY}"))
 
             enqueueResponse("popular_movie.json")
             val resultResponsePopularMovie = service.getPopularMovie(BuildConfig.API_KEY)
-
             val requestPopularMovie = mockWebServer.takeRequest(1, TimeUnit.SECONDS)
             Assert.assertNotNull(resultResponsePopularMovie)
             Assert.assertThat(requestPopularMovie!!.path, CoreMatchers.`is`("/movie/popular?api_key=${BuildConfig.API_KEY}"))
 
             enqueueResponse("top_rated_movie.json")
             val resultResponseTopRated = service.getTopRatedMovie(BuildConfig.API_KEY)
-//
             val requestTopRated = mockWebServer.takeRequest(1, TimeUnit.SECONDS)
             Assert.assertNotNull(resultResponseTopRated)
             Assert.assertThat(requestTopRated!!.path, CoreMatchers.`is`("/movie/top_rated?api_key=${BuildConfig.API_KEY}"))
+        }
+    }
+
+    @Test
+    fun getNowPlayingMovie(){
+        runBlocking {
+            enqueueResponse("now_playing_movie.json")
+            val resultResponse = service.getNowPlaying(BuildConfig.API_KEY)
+            val selectedMovie = resultResponse.results[0]
+            Assert.assertThat(selectedMovie.id, CoreMatchers.`is`(521034))
+            Assert.assertThat(selectedMovie.releaseDate, CoreMatchers.`is`("2020-07-08"))
+            Assert.assertThat(selectedMovie.backdropPath, CoreMatchers.`is`("/8PK4X8U3C79ilzIjNTkTgjmc4js.jpg"))
+            Assert.assertThat(selectedMovie.posterPath, CoreMatchers.`is`("/5MSDwUcqnGodFTvtlLiLKK0XKS.jpg"))
+            Assert.assertThat(selectedMovie.overview, CoreMatchers.`is`("Mary Lennox is born in India to wealthy British parents who never wanted her. When her parents suddenly die, she is sent back to England to live with her uncle. She meets her sickly cousin, and the two children find a wondrous secret garden lost in the grounds of Misselthwaite Manor."))
+            Assert.assertThat(selectedMovie.title, CoreMatchers.`is`("The Secret Garden"))
         }
     }
 

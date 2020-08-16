@@ -57,6 +57,13 @@ class ApiTest {
             val requestPopularMovie = mockWebServer.takeRequest(1, TimeUnit.SECONDS)
             Assert.assertNotNull(resultResponsePopularMovie)
             Assert.assertThat(requestPopularMovie!!.path, CoreMatchers.`is`("/movie/popular?api_key=${BuildConfig.API_KEY}"))
+
+            enqueueResponse("top_rated_movie.json")
+            val resultResponseTopRated = service.getTopRatedMovie(BuildConfig.API_KEY)
+//
+            val requestTopRated = mockWebServer.takeRequest(1, TimeUnit.SECONDS)
+            Assert.assertNotNull(resultResponseTopRated)
+            Assert.assertThat(requestTopRated!!.path, CoreMatchers.`is`("/movie/top_rated?api_key=${BuildConfig.API_KEY}"))
         }
     }
 

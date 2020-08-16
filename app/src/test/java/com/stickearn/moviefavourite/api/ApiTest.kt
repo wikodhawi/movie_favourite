@@ -109,6 +109,23 @@ class ApiTest {
         }
     }
 
+    @Test
+    fun testTotalReturnData() {
+        runBlocking {
+            enqueueResponse("now_playing_movie.json")
+            val resultResponse = service.getNowPlaying(BuildConfig.API_KEY)
+            Assert.assertThat(resultResponse.results.size, CoreMatchers.`is`(20))
+
+            enqueueResponse("popular_movie.json")
+            val resultResponsePopular = service.getPopularMovie(BuildConfig.API_KEY)
+            Assert.assertThat(resultResponsePopular.results.size, CoreMatchers.`is`(20))
+
+            enqueueResponse("top_rated_movie.json")
+            val resultResponseTopRated = service.getTopRatedMovie(BuildConfig.API_KEY)
+            Assert.assertThat(resultResponseTopRated.results.size, CoreMatchers.`is`(20))
+        }
+    }
+
     private fun enqueueResponse(fileName: String, headers: Map<String, String> = emptyMap()) {
         val inputStream = javaClass.classLoader!!
             .getResourceAsStream("api-response/$fileName")

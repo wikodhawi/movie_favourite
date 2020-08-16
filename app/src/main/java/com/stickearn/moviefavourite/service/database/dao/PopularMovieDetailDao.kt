@@ -16,9 +16,6 @@ interface PopularMovieDetailDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insert(vararg items: PopularMovieDetail?)
 
-    @Update
-    suspend fun update(vararg items: PopularMovieDetail?)
-
     @Delete
     suspend fun delete(item: PopularMovieDetail?)
 }

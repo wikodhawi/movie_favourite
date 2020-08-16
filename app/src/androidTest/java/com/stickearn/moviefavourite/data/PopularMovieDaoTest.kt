@@ -25,7 +25,8 @@ class PopularMovieDaoTest : DbTest() {
     fun createDb() {
         popularMovieDetailDao = db.popularMovieDetailDao()
         runBlocking {
-            popularMovieDetailDao.insertAll(listOf(setA, setB))
+            popularMovieDetailDao.insert(setA)
+            popularMovieDetailDao.insert(setB)
         }
     }
 
@@ -40,10 +41,19 @@ class PopularMovieDaoTest : DbTest() {
 
     @Test
     fun testQueryDeleteFromDao() {
-//        categoryDao.deleteData()
-//
-//        val list = categoryDao.getCategories()
-//        Assert.assertThat(list.size, Matchers.equalTo(0))
+        runBlocking {
+            popularMovieDetailDao.delete(setA)
+
+            val list = popularMovieDetailDao.getAll()
+            Assert.assertThat(list.size, Matchers.equalTo(1))
+        }
     }
 
+    @Test
+    fun testQueryFind1FromDao() {
+        runBlocking {
+            val dataFound = popularMovieDetailDao.getById(setA.id.toString())
+            Assert.assertThat(dataFound, Matchers.equalTo(setA))
+        }
+    }
 }

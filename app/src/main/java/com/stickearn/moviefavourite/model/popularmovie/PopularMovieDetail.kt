@@ -1,18 +1,18 @@
 package com.stickearn.moviefavourite.model.popularmovie
 
 
+import  androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
+@Entity
 data class PopularMovieDetail(
-    @SerializedName("adult")
-    val adult: Boolean,
+    @SerializedName("id")
+    @PrimaryKey
+    val id: Int,
     @SerializedName("backdrop_path")
     val backdropPath: String,
-    @SerializedName("genre_ids")
-    val genreIds: List<Int>,
-    @SerializedName("id")
-    val id: Int,
     @SerializedName("original_language")
     val originalLanguage: String,
     @SerializedName("original_title")
@@ -26,11 +26,5 @@ data class PopularMovieDetail(
     @SerializedName("release_date")
     val releaseDate: String,
     @SerializedName("title")
-    val title: String,
-    @SerializedName("video")
-    val video: Boolean,
-    @SerializedName("vote_average")
-    val voteAverage: Double,
-    @SerializedName("vote_count")
-    val voteCount: Double
+    val title: String
 ) : Serializable

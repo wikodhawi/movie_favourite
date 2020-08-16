@@ -14,6 +14,7 @@ val databaseModule = module {
     single { DatabaseModule().provideSqlChiper() }
     single { DatabaseModule().provideAppDatabase(androidContext(), get()) }
     single { DatabaseModule().provideDummyEntityDao(get()) }
+    single { DatabaseModule().providePopularMovieDetailDao(get()) }
 }
 
 class DatabaseModule {
@@ -31,6 +32,7 @@ class DatabaseModule {
             .build()
 
     fun provideDummyEntityDao(appDatabase: AppDatabase) = appDatabase.dummyEntityDao()
+    fun providePopularMovieDetailDao(appDatabase: AppDatabase) = appDatabase.popularMovieDetailDao()
 
     companion object {
         private const val DATABASE_NAME = "movieFavouriteDb"

@@ -10,7 +10,7 @@ import org.koin.dsl.module
 val viewModelModule = module {
     factory { LoginViewModel(get(), get()) }
     factory { MainViewModel(get()) }
-    factory { MovieDetailViewModel(get()) }
+    factory { MovieDetailViewModel(get(), get()) }
 }
 
 

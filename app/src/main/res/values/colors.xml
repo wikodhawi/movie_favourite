@@ -8,4 +8,5 @@
     <color name="md_white_1000">#ffffff</color>
     <color name="colorLoading">#858282</color>
     <color name="colorShimmerDefault">#DDDDDD</color>
+    <color name="colorRedFavourite">#FF0803</color>
 </resources>

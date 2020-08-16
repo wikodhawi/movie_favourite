@@ -50,6 +50,13 @@ class ApiTest {
             val request = mockWebServer.takeRequest(1, TimeUnit.SECONDS)
             Assert.assertNotNull(resultResponse)
             Assert.assertThat(request!!.path, CoreMatchers.`is`("/movie/now_playing?api_key=${BuildConfig.API_KEY}"))
+
+            enqueueResponse("popular_movie.json")
+            val resultResponsePopularMovie = service.getPopularMovie(BuildConfig.API_KEY)
+
+            val requestPopularMovie = mockWebServer.takeRequest(1, TimeUnit.SECONDS)
+            Assert.assertNotNull(resultResponsePopularMovie)
+            Assert.assertThat(requestPopularMovie!!.path, CoreMatchers.`is`("/movie/popular?api_key=${BuildConfig.API_KEY}"))
         }
     }
 

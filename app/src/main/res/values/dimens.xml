@@ -17,4 +17,5 @@
     <dimen name="font_button2">16dp</dimen>
 
     <dimen name="dimenHeightLogo">90dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
 </resources>

@@ -20,4 +20,11 @@
     <string name="top_rated">Top Rated</string>
     <string name="now_playing">Now Playing</string>
     <string name="movie">Movie</string>
+    <string name="image">image</string>
+    <string name="view">view</string>
+    <string name="overview">Description</string>
+    <string name="review">Review</string>
+    <string name="favourite">favourite</string>
+    <string name="description">Description</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
 </resources>

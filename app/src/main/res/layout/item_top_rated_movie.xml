@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            android:elevation="8dp"
+            android:layout_margin="8dp"
+            >
+
+            <ImageView
+                android:id="@+id/imgMovie"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:scaleType="centerCrop"
+                tools:src="@color/colorLoading"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/lblTitleMovie"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            tools:text="One Punch Man"
+            android:maxLines="1"
+            android:layout_marginHorizontal="8dp"
+            android:fontFamily="@font/montserrat_alternates_black"
+            />
+
+        <TextView
+            android:id="@+id/lblReleaseDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="1 December 2018"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/montserrat_alternates_regular"
+            />
+
+    </LinearLayout>
+</layout>

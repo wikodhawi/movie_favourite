@@ -2,6 +2,7 @@ package com.stickearn.moviefavourite.model.popularmovie
 
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class PopularMovieDetail(
     @SerializedName("adult")
@@ -32,4 +33,4 @@ data class PopularMovieDetail(
     val voteAverage: Double,
     @SerializedName("vote_count")
     val voteCount: Double
-)
+) : Serializable

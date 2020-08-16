@@ -8,7 +8,7 @@ import com.stickearn.moviefavourite.model.popularmovie.PopularMovieDetail
 @Dao
 interface PopularMovieDetailDao {
     @Query("SELECT * FROM PopularMovieDetail")
-    fun getAll(): LiveData<List<PopularMovieDetail>>
+    fun getAll(): List<PopularMovieDetail>
 
     @Query("SELECT * FROM PopularMovieDetail WHERE id=:id")
     fun getById(id: String): PopularMovieDetail

@@ -28,4 +28,5 @@
     <string name="description">Description</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="addedToFavouriteMovie">Added to favourite movie</string>
+    <string name="favouriteMovie">Favourite Movie</string>
 </resources>

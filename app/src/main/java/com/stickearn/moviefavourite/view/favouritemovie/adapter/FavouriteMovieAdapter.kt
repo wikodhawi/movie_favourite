@@ -1,4 +1,4 @@
-package com.stickearn.moviefavourite.view.main.adapter
+package com.stickearn.moviefavourite.view.favouritemovie.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,19 +6,22 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.stickearn.moviefavourite.BuildConfig
 import com.stickearn.moviefavourite.R
+import com.stickearn.moviefavourite.databinding.ItemFavouriteMovieBinding
 import com.stickearn.moviefavourite.databinding.ItemTopRatedMovieBinding
 import com.stickearn.moviefavourite.model.popularmovie.PopularMovieDetail
 import com.stickearn.moviefavourite.utilities.extension.setOnSafeClickListener
+import com.stickearn.moviefavourite.view.main.adapter.PopularMovieAdapter
+import com.stickearn.moviefavourite.view.main.adapter.TopRatedMovieAdapter
 import java.text.SimpleDateFormat
 
-class TopRatedMovieAdapter (private val popularMovies: List<PopularMovieDetail>, private val onClickCallback: PopularMovieAdapter.OnClickCallback) : RecyclerView.Adapter<TopRatedMovieAdapter.ItemViewHolder>() {
+class FavouriteMovieAdapter (private val popularMovies: List<PopularMovieDetail>, private val onClickCallback: PopularMovieAdapter.OnClickCallback) : RecyclerView.Adapter<FavouriteMovieAdapter.ItemViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {
-        val binding = ItemTopRatedMovieBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        val binding = ItemFavouriteMovieBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ItemViewHolder(binding, onClickCallback)
     }
 
-    class ItemViewHolder(private val binding: ItemTopRatedMovieBinding, private val onClickCallback: PopularMovieAdapter.OnClickCallback) : RecyclerView.ViewHolder(binding.root) {
+    class ItemViewHolder(private val binding: ItemFavouriteMovieBinding, private val onClickCallback: PopularMovieAdapter.OnClickCallback) : RecyclerView.ViewHolder(binding.root) {
         fun bindItem(
             item: PopularMovieDetail
         ) {
@@ -30,6 +33,7 @@ class TopRatedMovieAdapter (private val popularMovies: List<PopularMovieDetail>,
             val sdf2 = SimpleDateFormat("d MMM yyyy")
             val dateFormatted = sdf.parse(item.releaseDate)
             binding.lblReleaseDate.text = sdf2.format(dateFormatted)
+            binding.lblOverview.text = item.overview
             itemView.setOnSafeClickListener {
                 onClickCallback.toDetailMovie(item)
             }

@@ -49,6 +49,10 @@ class MovieDetailActivity : AppCompatActivity() {
             shareLink()
         }
         viewModel.getReview(movieDetailSelected.id.toString())
+        binding.swpMovieDetail.setOnRefreshListener {
+            viewModel.getReview(movieDetailSelected.id.toString())
+            binding.swpMovieDetail.isRefreshing = false
+        }
         setFavouriteIcon()
         initToolbar()
         observeViewModel()

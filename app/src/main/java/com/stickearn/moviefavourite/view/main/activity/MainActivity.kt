@@ -13,10 +13,8 @@ import com.stickearn.moviefavourite.R
 import com.stickearn.moviefavourite.base.BaseActivity
 import com.stickearn.moviefavourite.databinding.ActivityMainBinding
 import com.stickearn.moviefavourite.model.popularmovie.PopularMovieDetail
-import com.stickearn.moviefavourite.model.usertest.UserTestItem
 import com.stickearn.moviefavourite.service.network.ApiResult
 import com.stickearn.moviefavourite.view.favouritemovie.FavouriteMovieActivity
-import com.stickearn.moviefavourite.view.main.MainAdapter
 import com.stickearn.moviefavourite.view.main.adapter.PopularMovieAdapter
 import com.stickearn.moviefavourite.view.main.adapter.TopRatedMovieAdapter
 import com.stickearn.moviefavourite.view.moviedetail.MovieDetailActivity
@@ -106,7 +104,11 @@ class MainActivity : BaseActivity() {
                 }
                 else -> {
                     val adapter =
-                        TopRatedMovieAdapter(it.data!!.results)
+                        TopRatedMovieAdapter(it.data!!.results, object : PopularMovieAdapter.OnClickCallback {
+                            override fun toDetailMovie(popularMovieDetail: PopularMovieDetail) {
+                                startActivity(Intent(applicationContext, MovieDetailActivity::class.java).putExtra(MovieDetailActivity.DETAIL_MOVIE_SELECTED, popularMovieDetail))
+                            }
+                        })
                     binding.rcyTopRatedMovie.adapter = adapter
                     binding.rcyTopRatedMovie.visibility = View.VISIBLE
                     binding.shimmerTopRatedMovie.visibility = View.GONE
@@ -126,7 +128,11 @@ class MainActivity : BaseActivity() {
                 }
                 else -> {
                     val adapter =
-                        TopRatedMovieAdapter(it.data!!.results)
+                        TopRatedMovieAdapter(it.data!!.results, object : PopularMovieAdapter.OnClickCallback {
+                            override fun toDetailMovie(popularMovieDetail: PopularMovieDetail) {
+                                startActivity(Intent(applicationContext, MovieDetailActivity::class.java).putExtra(MovieDetailActivity.DETAIL_MOVIE_SELECTED, popularMovieDetail))
+                            }
+                        })
 
                     binding.rcyNowPlaying.adapter = adapter
                     binding.rcyNowPlaying.visibility= View.VISIBLE

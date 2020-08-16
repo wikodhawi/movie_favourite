@@ -2,6 +2,7 @@ package com.stickearn.moviefavourite.view
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.test.core.app.ActivityScenario.launch
+import com.nhaarman.mockitokotlin2.whenever
 import com.stickearn.moviefavourite.model.popularmovie.PopularMovie
 import com.stickearn.moviefavourite.repository.login.MainRepository
 import com.stickearn.moviefavourite.viewmodel.MainViewModel
@@ -37,5 +38,14 @@ class MainViewModelTest {
         Mockito.verify(mockedViewModel, Mockito.never()).getPopularMovie()
         Mockito.verify(mockedViewModel, Mockito.never()).getTopRatedMovies()
         Mockito.verify(mockedViewModel, Mockito.never()).getNowPlayingMovies()
+    }
+
+    @Test
+    fun `when called data from repository return with true data type`() {
+        runBlocking {
+            whenever(repository.getNowPlaying()).thenReturn(mockPopularMovie)
+            whenever(repository.getPopularMovie()).thenReturn(mockPopularMovie)
+            whenever(repository.getTopRatedMovie()).thenReturn(mockPopularMovie)
+        }
     }
 }

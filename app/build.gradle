@@ -113,6 +113,7 @@ dependencies {
     testImplementation "org.hamcrest:hamcrest-all:$hamcrest_version"
     testImplementation "org.mockito:mockito-core:$mockito_core_version"
     testImplementation "androidx.arch.core:core-testing:$core_testing_version"
+    testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0"
 
     // Dependencies for Android unit tests
     androidTestImplementation "junit:junit:$junit_version"

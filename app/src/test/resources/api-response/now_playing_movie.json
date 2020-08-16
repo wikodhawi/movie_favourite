@@ -1,0 +1,417 @@
+{
+    "results": [
+        {
+            "popularity": 114.229,
+            "vote_count": 75,
+            "video": false,
+            "poster_path": "/5MSDwUcqnGodFTvtlLiLKK0XKS.jpg",
+            "id": 521034,
+            "adult": false,
+            "backdrop_path": "/8PK4X8U3C79ilzIjNTkTgjmc4js.jpg",
+            "original_language": "en",
+            "original_title": "The Secret Garden",
+            "genre_ids": [
+                18,
+                14,
+                10751
+            ],
+            "title": "The Secret Garden",
+            "vote_average": 7.5,
+            "overview": "Mary Lennox is born in India to wealthy British parents who never wanted her. When her parents suddenly die, she is sent back to England to live with her uncle. She meets her sickly cousin, and the two children find a wondrous secret garden lost in the grounds of Misselthwaite Manor.",
+            "release_date": "2020-07-08"
+        },
+        {
+            "popularity": 100.096,
+            "vote_count": 63,
+            "video": false,
+            "poster_path": "/3eg0kGC2Xh0vhydJHO37Sp4cmMt.jpg",
+            "id": 531499,
+            "adult": false,
+            "backdrop_path": "/zogWnCSztU8xvabaepQnAwsOtOt.jpg",
+            "original_language": "en",
+            "original_title": "The Tax Collector",
+            "genre_ids": [
+                28,
+                80,
+                18,
+                53
+            ],
+            "title": "The Tax Collector",
+            "vote_average": 5.9,
+            "overview": "David Cuevas is a family man who works as a gangland tax collector for high ranking Los Angeles gang members. He makes collections across the city with his partner Creeper making sure people pay up or will see retaliation. An old threat returns to Los Angeles that puts everything David loves in harm’s way.",
+            "release_date": "2020-08-07"
+        },
+        {
+            "popularity": 75.484,
+            "vote_count": 20,
+            "video": false,
+            "poster_path": "/dKjD3DTZjRI3Ipkf7Oz5zAILnwD.jpg",
+            "id": 659991,
+            "adult": false,
+            "backdrop_path": "/5nRyaVklxyA9OkxqZaPv1KBRqpd.jpg",
+            "original_language": "en",
+            "original_title": "Made in Italy",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "title": "Made in Italy",
+            "vote_average": 6.6,
+            "overview": "A bohemian artist travels from London to Italy with his estranged son to sell the house they inherited from his late wife.",
+            "release_date": "2020-08-06"
+        },
+        {
+            "popularity": 77.474,
+            "vote_count": 26800,
+            "video": false,
+            "poster_path": "/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+            "id": 27205,
+            "adult": false,
+            "backdrop_path": "/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
+            "original_language": "en",
+            "original_title": "Inception",
+            "genre_ids": [
+                28,
+                12,
+                878
+            ],
+            "title": "Inception",
+            "vote_average": 8.3,
+            "overview": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
+            "release_date": "2010-07-15"
+        },
+        {
+            "popularity": 74.988,
+            "vote_count": 409,
+            "video": false,
+            "poster_path": "/jHo2M1OiH9Re33jYtUQdfzPeUkx.jpg",
+            "id": 385103,
+            "adult": false,
+            "backdrop_path": "/fKtYXUhX5fxMxzQfyUcQW9Shik6.jpg",
+            "original_language": "en",
+            "original_title": "Scoob!",
+            "genre_ids": [
+                12,
+                16,
+                35,
+                10751
+            ],
+            "title": "Scoob!",
+            "vote_average": 7.6,
+            "overview": "In Scooby-Doo’s greatest adventure yet, see the never-before told story of how lifelong friends Scooby and Shaggy first met and how they joined forces with young detectives Fred, Velma, and Daphne to form the famous Mystery Inc. Now, with hundreds of cases solved, Scooby and the gang face their biggest, toughest mystery ever: an evil plot to unleash the ghost dog Cerberus upon the world. As they race to stop this global “dogpocalypse,” the gang discovers that Scooby has a secret legacy and an epic destiny greater than anyone ever imagined.",
+            "release_date": "2020-07-08"
+        },
+        {
+            "popularity": 63.467,
+            "vote_count": 6,
+            "video": false,
+            "poster_path": "/hJUA4wfvw0A6l3niOfxourqpERA.jpg",
+            "id": 653598,
+            "adult": false,
+            "backdrop_path": "/nTyl9fqTQNtwh8BUTZ0WzKH16r7.jpg",
+            "original_language": "en",
+            "original_title": "Spree",
+            "genre_ids": [
+                35,
+                27,
+                9648,
+                53
+            ],
+            "title": "Spree",
+            "vote_average": 5.7,
+            "overview": "Kurt Kunkle, a rideshare driver thirsty for followers, has figured out a deadly plan to go viral. As his disturbing livestream is absurdly embraced by the social media hellscape, a comedienne emerges as the only hope to stop this rampage.",
+            "release_date": "2020-08-14"
+        },
+        {
+            "popularity": 58.422,
+            "vote_count": 8777,
+            "video": false,
+            "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+            "id": 496243,
+            "adult": false,
+            "backdrop_path": "/ApiBzeaa95TNYliSbQ8pJv4Fje7.jpg",
+            "original_language": "ko",
+            "original_title": "기생충",
+            "genre_ids": [
+                35,
+                18,
+                53
+            ],
+            "title": "Parasite",
+            "vote_average": 8.5,
+            "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+            "release_date": "2019-05-30"
+        },
+        {
+            "popularity": 56.585,
+            "vote_count": 43,
+            "video": false,
+            "poster_path": "/95S6PinQIvVe4uJAd82a2iGZ0rA.jpg",
+            "id": 522444,
+            "adult": false,
+            "backdrop_path": "/fRrpOILyXuWaWLmqF7kXeMVwITQ.jpg",
+            "original_language": "en",
+            "original_title": "Black Water: Abyss",
+            "genre_ids": [
+                12,
+                27,
+                53
+            ],
+            "title": "Black Water: Abyss",
+            "vote_average": 5.7,
+            "overview": "An adventure-loving couple convince their friends to explore a remote, uncharted cave system in the forests of Northern Australia. With a tropical storm approaching, they abseil into the mouth of the cave, but when the caves start to flood, tensions rise as oxygen levels fall and the friends find themselves trapped. Unknown to them, the storm has also brought in a pack of dangerous and hungry crocodiles.",
+            "release_date": "2020-07-09"
+        },
+        {
+            "popularity": 43.41,
+            "vote_count": 2848,
+            "video": false,
+            "poster_path": "/f4aul3FyD3jv3v4bul1IrkWZvzq.jpg",
+            "id": 508439,
+            "adult": false,
+            "backdrop_path": "/xFxk4vnirOtUxpOEWgA1MCRfy6J.jpg",
+            "original_language": "en",
+            "original_title": "Onward",
+            "genre_ids": [
+                12,
+                16,
+                35,
+                14,
+                10751
+            ],
+            "title": "Onward",
+            "vote_average": 7.9,
+            "overview": "In a suburban fantasy world, two teenage elf brothers embark on an extraordinary quest to discover if there is still a little magic left out there.",
+            "release_date": "2020-02-29"
+        },
+        {
+            "popularity": 71.497,
+            "vote_count": 71,
+            "video": false,
+            "poster_path": "/zQFjMmE3K9AX5QrBL1SXIxYQ9jz.jpg",
+            "id": 579583,
+            "adult": false,
+            "backdrop_path": "/5rwcd24GGltKiqdPT4G2dmchLr9.jpg",
+            "original_language": "en",
+            "original_title": "The King of Staten Island",
+            "genre_ids": [
+                35,
+                18
+            ],
+            "title": "The King of Staten Island",
+            "vote_average": 6.9,
+            "overview": "Scott has been a case of arrested development ever since his firefighter father died when he was seven. He’s now reached his mid-20s having achieved little, chasing a dream of becoming a tattoo artist that seems far out of reach. As his ambitious younger sister heads off to college, Scott is still living with his exhausted ER nurse mother and spends his days smoking weed, hanging with the guys — Oscar, Igor and Richie — and secretly hooking up with his childhood friend Kelsey. But when his mother starts dating a loudmouth firefighter named Ray, it sets off a chain of events that will force Scott to grapple with his grief and take his first tentative steps toward moving forward in life.",
+            "release_date": "2020-07-22"
+        },
+        {
+            "popularity": 42.255,
+            "vote_count": 5,
+            "video": false,
+            "poster_path": "/j8MRnCjuN7kpM8w3B5hM5mrvTaE.jpg",
+            "id": 400160,
+            "adult": false,
+            "backdrop_path": "/wu1uilmhM4TdluKi2ytfz8gidHf.jpg",
+            "original_language": "en",
+            "original_title": "The SpongeBob Movie: Sponge on the Run",
+            "genre_ids": [
+                12,
+                16,
+                35,
+                14,
+                10751
+            ],
+            "title": "The SpongeBob Movie: Sponge on the Run",
+            "vote_average": 7,
+            "overview": "After SpongeBob's beloved pet snail Gary is snail-napped, he and Patrick embark on an epic adventure to The Lost City of Atlantic City to bring Gary home.",
+            "release_date": "2020-08-14"
+        },
+        {
+            "popularity": 42.615,
+            "vote_count": 5383,
+            "video": false,
+            "poster_path": "/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg",
+            "id": 454626,
+            "adult": false,
+            "backdrop_path": "/diFNHa3SXaGSSFovGatNWxLz2tn.jpg",
+            "original_language": "en",
+            "original_title": "Sonic the Hedgehog",
+            "genre_ids": [
+                28,
+                35,
+                878,
+                10751
+            ],
+            "title": "Sonic the Hedgehog",
+            "vote_average": 7.5,
+            "overview": "Based on the global blockbuster videogame franchise from Sega, Sonic the Hedgehog tells the story of the world’s speediest hedgehog as he embraces his new home on Earth. In this live-action adventure comedy, Sonic and his new best friend team up to defend the planet from the evil genius Dr. Robotnik and his plans for world domination.",
+            "release_date": "2020-02-12"
+        },
+        {
+            "popularity": 47.48,
+            "vote_count": 108,
+            "video": false,
+            "poster_path": "/3ynPnBXQVT2Y0s19fDIPlWKUlxH.jpg",
+            "id": 587496,
+            "adult": false,
+            "backdrop_path": "/2gBMBfmQvHeOQQ5PiKiuxVdGs77.jpg",
+            "original_language": "en",
+            "original_title": "The Rental",
+            "genre_ids": [
+                18,
+                27,
+                53
+            ],
+            "title": "The Rental",
+            "vote_average": 5.7,
+            "overview": "Two couples on an oceanside getaway grow suspicious that the host of their seemingly perfect rental house may be spying on them. Before long, what should have been a celebratory weekend trip turns into something far more sinister.",
+            "release_date": "2020-07-23"
+        },
+        {
+            "popularity": 43.853,
+            "vote_count": 1242,
+            "video": false,
+            "poster_path": "/wxPhn4ef1EAo5njxwBkAEVrlJJG.jpg",
+            "id": 514847,
+            "adult": false,
+            "backdrop_path": "/qfQ78ZKiouoM2yhAnfNblp9ijQE.jpg",
+            "original_language": "en",
+            "original_title": "The Hunt",
+            "genre_ids": [
+                28,
+                27,
+                53
+            ],
+            "title": "The Hunt",
+            "vote_average": 6.6,
+            "overview": "Twelve strangers wake up in a clearing. They don't know where they are—or how they got there. In the shadow of a dark internet conspiracy theory, ruthless elitists gather at a remote location to hunt humans for sport. But their master plan is about to be derailed when one of the hunted turns the tables on her pursuers.",
+            "release_date": "2020-03-11"
+        },
+        {
+            "popularity": 45.813,
+            "vote_count": 6091,
+            "video": false,
+            "poster_path": "/iZf0KyrE25z1sage4SYFLCCrMi9.jpg",
+            "id": 530915,
+            "adult": false,
+            "backdrop_path": "/cqa3sa4c4jevgnEJwq3CMF8UfTG.jpg",
+            "original_language": "en",
+            "original_title": "1917",
+            "genre_ids": [
+                28,
+                18,
+                36,
+                10752
+            ],
+            "title": "1917",
+            "vote_average": 8,
+            "overview": "At the height of the First World War, two young British soldiers must cross enemy territory and deliver a message that will stop a deadly attack on hundreds of soldiers.",
+            "release_date": "2019-12-25"
+        },
+        {
+            "popularity": 39.605,
+            "vote_count": 17751,
+            "video": false,
+            "poster_path": "/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
+            "id": 671,
+            "adult": false,
+            "backdrop_path": "/hziiv14OpD73u9gAak4XDDfBKa2.jpg",
+            "original_language": "en",
+            "original_title": "Harry Potter and the Philosopher's Stone",
+            "genre_ids": [
+                12,
+                14,
+                10751
+            ],
+            "title": "Harry Potter and the Philosopher's Stone",
+            "vote_average": 7.9,
+            "overview": "Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard -- with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths -- and about the villain who's to blame.",
+            "release_date": "2001-11-16"
+        },
+        {
+            "popularity": 36.013,
+            "vote_count": 3,
+            "video": false,
+            "poster_path": "/puVA7UoLuu7Q7OtGRWINhT2XpOB.jpg",
+            "id": 437518,
+            "adult": false,
+            "backdrop_path": "/z8PntmDQqNt8ertwoXQTFoMQg5u.jpg",
+            "original_language": "en",
+            "original_title": "Friend of the World",
+            "genre_ids": [
+                35,
+                27,
+                878,
+                53,
+                10752
+            ],
+            "title": "Friend of the World",
+            "vote_average": 5.3,
+            "overview": "After a catastrophic global war, a young filmmaker awakens in the carnage and seeks refuge in the only other survivor: an eccentric, ideologically opposed figure of the United States military. Together, they brave the toxic landscape in search of safety... and answers.",
+            "release_date": "2020-08-15"
+        },
+        {
+            "popularity": 40.864,
+            "vote_count": 22,
+            "video": false,
+            "poster_path": "/k50gYFDfpAyxcIGjWjnXAaOM81e.jpg",
+            "id": 505707,
+            "adult": false,
+            "backdrop_path": "/l0vUzd701TzvN3jywXex9G01zpd.jpg",
+            "original_language": "en",
+            "original_title": "Waiting for the Barbarians",
+            "genre_ids": [
+                18
+            ],
+            "title": "Waiting for the Barbarians",
+            "vote_average": 5.5,
+            "overview": "At an isolated frontier outpost, a colonial magistrate suffers a crisis of conscience when an army colonel arrives looking to interrogate the locals about an impending uprising, using cruel tactics that horrify the magistrate.",
+            "release_date": "2020-07-30"
+        },
+        {
+            "popularity": 48.848,
+            "vote_count": 20,
+            "video": false,
+            "poster_path": "/yf5IuMW6GHghu39kxA0oFx7Bxmj.jpg",
+            "id": 587792,
+            "adult": false,
+            "backdrop_path": "/d7JUXVvjvVCXWs1mlpyO5ESdWdT.jpg",
+            "original_language": "en",
+            "original_title": "Palm Springs",
+            "genre_ids": [
+                35,
+                14,
+                9648,
+                10749
+            ],
+            "title": "Palm Springs",
+            "vote_average": 7.9,
+            "overview": "When carefree Nyles and reluctant maid of honor Sarah have a chance encounter at a Palm Springs wedding, things get complicated when they find themselves unable to escape the venue, themselves, or each other.",
+            "release_date": "2020-08-20"
+        },
+        {
+            "popularity": 55.948,
+            "vote_count": 1,
+            "video": false,
+            "poster_path": "/jYoRYxB56YU7CmqU4BfDWIuHZUX.jpg",
+            "id": 390635,
+            "adult": false,
+            "backdrop_path": null,
+            "original_language": "ja",
+            "original_title": "劇場版 Fate／stay night [Heaven's Feel] III.spring song",
+            "genre_ids": [
+                16
+            ],
+            "title": "Fate/Stay Night: Heaven's Feel III. Spring Song",
+            "vote_average": 1,
+            "overview": "Theatrical-release adaptation of the visual novel \"Fate/stay night\", following the third and final route. (Final part of a trilogy.)",
+            "release_date": "2020-08-15"
+        }
+    ],
+    "page": 1,
+    "total_results": 717,
+    "dates": {
+        "maximum": "2020-08-21",
+        "minimum": "2020-07-04"
+    },
+    "total_pages": 36
+}

@@ -1,0 +1,405 @@
+{
+  "page": 1,
+  "total_results": 10000,
+  "total_pages": 500,
+  "results": [
+    {
+      "popularity": 133.64,
+      "vote_count": 334,
+      "video": false,
+      "poster_path": "/b5XfICAvUe8beWExBz97i0Qw4Qh.jpg",
+      "id": 612706,
+      "adult": false,
+      "backdrop_path": "/ishzDCZIv9iWfI70nv5E4ZreYUD.jpg",
+      "original_language": "en",
+      "original_title": "Work It",
+      "genre_ids": [
+        35,
+        10402
+      ],
+      "title": "Work It",
+      "vote_average": 8,
+      "overview": "A brilliant but clumsy high school senior vows to get into her late father's alma mater by transforming herself and a misfit squad into dance champions.",
+      "release_date": "2020-08-07"
+    },
+    {
+      "popularity": 114.229,
+      "vote_count": 75,
+      "video": false,
+      "poster_path": "/5MSDwUcqnGodFTvtlLiLKK0XKS.jpg",
+      "id": 521034,
+      "adult": false,
+      "backdrop_path": "/8PK4X8U3C79ilzIjNTkTgjmc4js.jpg",
+      "original_language": "en",
+      "original_title": "The Secret Garden",
+      "genre_ids": [
+        18,
+        14,
+        10751
+      ],
+      "title": "The Secret Garden",
+      "vote_average": 7.5,
+      "overview": "Mary Lennox is born in India to wealthy British parents who never wanted her. When her parents suddenly die, she is sent back to England to live with her uncle. She meets her sickly cousin, and the two children find a wondrous secret garden lost in the grounds of Misselthwaite Manor.",
+      "release_date": "2020-07-08"
+    },
+    {
+      "popularity": 100.096,
+      "vote_count": 63,
+      "video": false,
+      "poster_path": "/3eg0kGC2Xh0vhydJHO37Sp4cmMt.jpg",
+      "id": 531499,
+      "adult": false,
+      "backdrop_path": "/zogWnCSztU8xvabaepQnAwsOtOt.jpg",
+      "original_language": "en",
+      "original_title": "The Tax Collector",
+      "genre_ids": [
+        28,
+        80,
+        18,
+        53
+      ],
+      "title": "The Tax Collector",
+      "vote_average": 5.9,
+      "overview": "David Cuevas is a family man who works as a gangland tax collector for high ranking Los Angeles gang members. He makes collections across the city with his partner Creeper making sure people pay up or will see retaliation. An old threat returns to Los Angeles that puts everything David loves in harm’s way.",
+      "release_date": "2020-08-07"
+    },
+    {
+      "popularity": 79.775,
+      "vote_count": 3036,
+      "video": false,
+      "poster_path": "/mb7wQv0adK3kjOUr9n93mANHhPJ.jpg",
+      "id": 583083,
+      "adult": false,
+      "backdrop_path": "/wO5QSWZPBT71gMLvrRex0bVc0V9.jpg",
+      "original_language": "en",
+      "original_title": "The Kissing Booth 2",
+      "genre_ids": [
+        35,
+        10749
+      ],
+      "title": "The Kissing Booth 2",
+      "vote_average": 8.1,
+      "overview": "With college decisions looming, Elle juggles her long-distance romance with Noah, changing relationship with bestie Lee and feelings for a new classmate.",
+      "release_date": "2020-07-24"
+    },
+    {
+      "popularity": 86.463,
+      "vote_count": 150,
+      "video": false,
+      "poster_path": "/ijJm0RSeKIr67qkHLtSmtigS6ra.jpg",
+      "id": 430155,
+      "adult": false,
+      "backdrop_path": "/8HbqSozBJxv6UldR9lMUECUlbLI.jpg",
+      "original_language": "ru",
+      "original_title": "Кома",
+      "genre_ids": [
+        28,
+        14,
+        878
+      ],
+      "title": "Coma",
+      "vote_average": 6,
+      "overview": "A young and talented architect comes to his senses after a horrific accident only to find himself in the odd dystopian world. A world that is filled with the memories of all current coma patients. Just like a human memory this world is fragmental, chaotic and unstable. This is COMA: icecaps, rivers and cities can all exist in a space of a single room and laws of physics are no longer laws as they can be bent.",
+      "release_date": "2019-11-19"
+    },
+    {
+      "popularity": 80.636,
+      "vote_count": 14277,
+      "video": false,
+      "poster_path": "/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg",
+      "id": 475557,
+      "adult": false,
+      "backdrop_path": "/n6bUvigpRFqSwmPp1m2YADdbRBc.jpg",
+      "original_language": "en",
+      "original_title": "Joker",
+      "genre_ids": [
+        80,
+        18,
+        53
+      ],
+      "title": "Joker",
+      "vote_average": 8.2,
+      "overview": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+      "release_date": "2019-10-02"
+    },
+    {
+      "popularity": 75.484,
+      "vote_count": 20,
+      "video": false,
+      "poster_path": "/dKjD3DTZjRI3Ipkf7Oz5zAILnwD.jpg",
+      "id": 659991,
+      "adult": false,
+      "backdrop_path": "/5nRyaVklxyA9OkxqZaPv1KBRqpd.jpg",
+      "original_language": "en",
+      "original_title": "Made in Italy",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "title": "Made in Italy",
+      "vote_average": 6.6,
+      "overview": "A bohemian artist travels from London to Italy with his estranged son to sell the house they inherited from his late wife.",
+      "release_date": "2020-08-06"
+    },
+    {
+      "popularity": 74.988,
+      "vote_count": 409,
+      "video": false,
+      "poster_path": "/jHo2M1OiH9Re33jYtUQdfzPeUkx.jpg",
+      "id": 385103,
+      "adult": false,
+      "backdrop_path": "/fKtYXUhX5fxMxzQfyUcQW9Shik6.jpg",
+      "original_language": "en",
+      "original_title": "Scoob!",
+      "genre_ids": [
+        12,
+        16,
+        35,
+        10751
+      ],
+      "title": "Scoob!",
+      "vote_average": 7.6,
+      "overview": "In Scooby-Doo’s greatest adventure yet, see the never-before told story of how lifelong friends Scooby and Shaggy first met and how they joined forces with young detectives Fred, Velma, and Daphne to form the famous Mystery Inc. Now, with hundreds of cases solved, Scooby and the gang face their biggest, toughest mystery ever: an evil plot to unleash the ghost dog Cerberus upon the world. As they race to stop this global “dogpocalypse,” the gang discovers that Scooby has a secret legacy and an epic destiny greater than anyone ever imagined.",
+      "release_date": "2020-07-08"
+    },
+    {
+      "popularity": 77.474,
+      "vote_count": 26800,
+      "video": false,
+      "poster_path": "/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+      "id": 27205,
+      "adult": false,
+      "backdrop_path": "/s3TBrRGB1iav7gFOCNx3H31MoES.jpg",
+      "original_language": "en",
+      "original_title": "Inception",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "title": "Inception",
+      "vote_average": 8.3,
+      "overview": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
+      "release_date": "2010-07-15"
+    },
+    {
+      "popularity": 73.686,
+      "vote_count": 168,
+      "video": false,
+      "poster_path": "/bKthjUmxjHjvJK8FktFfQdmwP12.jpg",
+      "id": 703745,
+      "adult": false,
+      "backdrop_path": "/hIHtyIYgBqHybOgUdoAmveipuiO.jpg",
+      "original_language": "en",
+      "original_title": "Deep Blue Sea 3",
+      "genre_ids": [
+        28,
+        27,
+        878
+      ],
+      "title": "Deep Blue Sea 3",
+      "vote_average": 6.5,
+      "overview": "Dr. Emma Collins and her team are spending their third summer on the island of Little Happy studying the effect of climate change on the great white sharks who come to the nearby nursery every year to give birth. Along with the last two inhabitants of this former fishing village, their peaceful life is disrupted when a \"scientific\" team led by her ex-boyfriend and marine biologist Richard show up looking for three bull sharks who we soon learn aren't just any bull sharks.",
+      "release_date": "2020-07-28"
+    },
+    {
+      "popularity": 77.197,
+      "vote_count": 19303,
+      "video": false,
+      "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+      "id": 299536,
+      "adult": false,
+      "backdrop_path": "/bOGkgRGdhrBYJSLpXaxhXVstddV.jpg",
+      "original_language": "en",
+      "original_title": "Avengers: Infinity War",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "title": "Avengers: Infinity War",
+      "vote_average": 8.3,
+      "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+      "release_date": "2018-04-25"
+    },
+    {
+      "popularity": 92.23,
+      "vote_count": 78,
+      "video": false,
+      "poster_path": "/vFIHbiy55smzi50RmF8LQjmpGcx.jpg",
+      "id": 703771,
+      "adult": false,
+      "backdrop_path": "/owraiceOKtSOa3t8sp3wA9K2Ox6.jpg",
+      "original_language": "en",
+      "original_title": "Deathstroke: Knights & Dragons - The Movie",
+      "genre_ids": [
+        28,
+        16
+      ],
+      "title": "Deathstroke: Knights & Dragons - The Movie",
+      "vote_average": 6.9,
+      "overview": "Ten years ago, Slade Wilson-aka the super-assassin called Deathstroke-made a tragic mistake and his wife and son paid a terrible price. Now, a decade later, Wilson's family is threatened once again by the murderous Jackal and the terrorists of H.IV.E. Can Deathstroke atone for the sins of the past-or will his family pay the ultimate price?",
+      "release_date": "2020-08-04"
+    },
+    {
+      "popularity": 75.131,
+      "vote_count": 898,
+      "video": false,
+      "poster_path": "/kjMbDciooTbJPofVXgAoFjfX8Of.jpg",
+      "id": 516486,
+      "adult": false,
+      "backdrop_path": "/xXBnM6uSTk6qqCf0SRZKXcga9Ba.jpg",
+      "original_language": "en",
+      "original_title": "Greyhound",
+      "genre_ids": [
+        28,
+        18,
+        10752
+      ],
+      "title": "Greyhound",
+      "vote_average": 7.5,
+      "overview": "A first-time captain leads a convoy of allied ships carrying thousands of soldiers across the treacherous waters of the “Black Pit” to the front lines of WW2. With no air cover protection for 5 days, the captain and his convoy must battle the surrounding enemy Nazi U-boats in order to give the allies a chance to win the war.",
+      "release_date": "2020-06-19"
+    },
+    {
+      "popularity": 98.969,
+      "vote_count": 165,
+      "video": false,
+      "poster_path": "/fjCezXiQWfGuNf4t7LruKky7kwV.jpg",
+      "id": 605116,
+      "adult": false,
+      "backdrop_path": "/qVygtf2vU15L2yKS4Ke44U4oMdD.jpg",
+      "original_language": "en",
+      "original_title": "Project Power",
+      "genre_ids": [
+        28,
+        80,
+        878
+      ],
+      "title": "Project Power",
+      "vote_average": 6.5,
+      "overview": "An ex-soldier, a teen and a cop collide in New Orleans as they hunt for the source behind a dangerous new pill that grants users temporary superpowers.",
+      "release_date": "2020-08-14"
+    },
+    {
+      "popularity": 59.315,
+      "vote_count": 23355,
+      "video": false,
+      "poster_path": "/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "id": 157336,
+      "adult": false,
+      "backdrop_path": "/xJHokMbljvjADYdit5fK5VQsXEG.jpg",
+      "original_language": "en",
+      "original_title": "Interstellar",
+      "genre_ids": [
+        12,
+        18,
+        878
+      ],
+      "title": "Interstellar",
+      "vote_average": 8.3,
+      "overview": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+      "release_date": "2014-11-05"
+    },
+    {
+      "popularity": 75.707,
+      "vote_count": 16626,
+      "video": false,
+      "poster_path": "/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg",
+      "id": 271110,
+      "adult": false,
+      "backdrop_path": "/7FWlcZq3r6525LWOcvO9kNWurN1.jpg",
+      "original_language": "en",
+      "original_title": "Captain America: Civil War",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "title": "Captain America: Civil War",
+      "vote_average": 7.4,
+      "overview": "Following the events of Age of Ultron, the collective governments of the world pass an act designed to regulate all superhuman activity. This polarizes opinion amongst the Avengers, causing two factions to side with Iron Man or Captain America, which causes an epic battle between former allies.",
+      "release_date": "2016-04-27"
+    },
+    {
+      "popularity": 40.632,
+      "vote_count": 23,
+      "video": false,
+      "poster_path": "/2NoqvEpApbcnSWFpbHAswOYufSQ.jpg",
+      "id": 480923,
+      "adult": false,
+      "backdrop_path": "/sUnAK6VaypBQAMrYa9XU8tGcp9X.jpg",
+      "original_language": "en",
+      "original_title": "Dead Ant",
+      "genre_ids": [
+        35,
+        27
+      ],
+      "title": "Dead Ant",
+      "vote_average": 5.1,
+      "overview": "When the 1989 \"one-hit-wonder\" glam-metal band \"Sonic Grave\" embark on a trip to Coachella in hopes of a comeback, their peyote trip pit stop in Joshua Tree incites an \"unworldly\" viscous attack, and they must \"rock\" themselves out of harms way.",
+      "release_date": "2017-10-10"
+    },
+    {
+      "popularity": 69.148,
+      "vote_count": 5411,
+      "video": false,
+      "poster_path": "/h4VB6m0RwcicVEZvzftYZyKXs6K.jpg",
+      "id": 495764,
+      "adult": false,
+      "backdrop_path": "/9xNOiv6DZZjH7ABoUUDP0ZynouU.jpg",
+      "original_language": "en",
+      "original_title": "Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)",
+      "genre_ids": [
+        28,
+        35,
+        80
+      ],
+      "title": "Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)",
+      "vote_average": 7.2,
+      "overview": "Harley Quinn joins forces with a singer, an assassin and a police detective to help a young girl who had a hit placed on her after she stole a rare diamond from a crime lord.",
+      "release_date": "2020-02-05"
+    },
+    {
+      "popularity": 65.86,
+      "vote_count": 8078,
+      "video": false,
+      "poster_path": "/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
+      "id": 429617,
+      "adult": false,
+      "backdrop_path": "/5myQbDzw3l8K9yofUXRJ4UTVgam.jpg",
+      "original_language": "en",
+      "original_title": "Spider-Man: Far from Home",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "title": "Spider-Man: Far from Home",
+      "vote_average": 7.5,
+      "overview": "Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent.",
+      "release_date": "2019-06-28"
+    },
+    {
+      "popularity": 63.467,
+      "vote_count": 6,
+      "video": false,
+      "poster_path": "/hJUA4wfvw0A6l3niOfxourqpERA.jpg",
+      "id": 653598,
+      "adult": false,
+      "backdrop_path": "/nTyl9fqTQNtwh8BUTZ0WzKH16r7.jpg",
+      "original_language": "en",
+      "original_title": "Spree",
+      "genre_ids": [
+        35,
+        27,
+        9648,
+        53
+      ],
+      "title": "Spree",
+      "vote_average": 5.7,
+      "overview": "Kurt Kunkle, a rideshare driver thirsty for followers, has figured out a deadly plan to go viral. As his disturbing livestream is absurdly embraced by the social media hellscape, a comedienne emerges as the only hope to stop this rampage.",
+      "release_date": "2020-08-14"
+    }
+  ]
+}

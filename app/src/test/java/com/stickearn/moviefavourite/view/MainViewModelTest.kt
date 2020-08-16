@@ -1,15 +1,22 @@
 package com.stickearn.moviefavourite.view
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
+import androidx.test.core.app.ActivityScenario.launch
+import com.stickearn.moviefavourite.model.popularmovie.PopularMovie
 import com.stickearn.moviefavourite.repository.login.MainRepository
 import com.stickearn.moviefavourite.viewmodel.MainViewModel
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 import org.hamcrest.CoreMatchers
 import org.hamcrest.MatcherAssert
+import org.junit.Assert.assertThat
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
 import org.mockito.Mockito
+import org.mockito.Mockito.`when`
+
 
 @RunWith(JUnit4::class)
 class MainViewModelTest {
@@ -20,6 +27,7 @@ class MainViewModelTest {
     private val repository = Mockito.mock(MainRepository::class.java)
     private var viewModel = MainViewModel(repository)
     private val mockedViewModel = Mockito.mock(MainViewModel::class.java)
+    private val mockPopularMovie = Mockito.mock(PopularMovie::class.java)
 
     @Test
     fun testNull() {
@@ -29,12 +37,5 @@ class MainViewModelTest {
         Mockito.verify(mockedViewModel, Mockito.never()).getPopularMovie()
         Mockito.verify(mockedViewModel, Mockito.never()).getTopRatedMovies()
         Mockito.verify(mockedViewModel, Mockito.never()).getNowPlayingMovies()
-    }
-
-    @Test
-    fun fetchDataFromChangeData() {
-//        viewModel.queryParameterData.query = "p"
-//
-//        Mockito.verify(repository, Mockito.never()).getGithubUsers(viewModel.queryParameterData)
     }
 }

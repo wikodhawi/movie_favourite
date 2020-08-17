@@ -31,6 +31,9 @@
     <init>(android.app.Application);
 }
 
+-keep class net.sqlcipher.** { *; }
+-keep class net.sqlcipher.database.* { *; }
+
 ########--------Retrofit + RxJava--------#########
 -dontwarn retrofit.**
 -keep class retrofit.** { *; }

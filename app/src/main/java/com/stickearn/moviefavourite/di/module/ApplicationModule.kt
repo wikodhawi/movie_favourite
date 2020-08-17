@@ -15,7 +15,6 @@ val applicationModule = module {
 }
 
 class ApplicationModule {
-    fun provideContext(application: Application): Context = application
 
     fun provideMainApplication(application: Application): MainApplication = application as MainApplication
 

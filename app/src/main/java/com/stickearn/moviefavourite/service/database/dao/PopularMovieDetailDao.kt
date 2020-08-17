@@ -1,8 +1,6 @@
 package com.stickearn.moviefavourite.service.database.dao
 
-import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.stickearn.moviefavourite.model.entity.DummyEntity
 import com.stickearn.moviefavourite.model.popularmovie.PopularMovieDetail
 
 @Dao

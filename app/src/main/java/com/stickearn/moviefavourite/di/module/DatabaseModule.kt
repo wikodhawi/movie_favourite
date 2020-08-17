@@ -4,6 +4,7 @@ import android.content.Context
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
+import com.stickearn.moviefavourite.BuildConfig
 import com.stickearn.moviefavourite.service.database.AppDatabase
 import net.sqlcipher.database.SQLiteDatabase
 import net.sqlcipher.database.SupportFactory
@@ -13,7 +14,6 @@ import org.koin.dsl.module
 val databaseModule = module {
     single { DatabaseModule().provideSqlChiper() }
     single { DatabaseModule().provideAppDatabase(androidContext(), get()) }
-    single { DatabaseModule().provideDummyEntityDao(get()) }
     single { DatabaseModule().providePopularMovieDetailDao(get()) }
 }
 
@@ -31,11 +31,10 @@ class DatabaseModule {
         }).openHelperFactory(supportFactory)
             .build()
 
-    fun provideDummyEntityDao(appDatabase: AppDatabase) = appDatabase.dummyEntityDao()
     fun providePopularMovieDetailDao(appDatabase: AppDatabase) = appDatabase.popularMovieDetailDao()
 
     companion object {
-        private const val DATABASE_NAME = "movieFavouriteDb"
-        private const val DATABASE_PASSWORD = "movieFavouritePass"
+        private const val DATABASE_NAME = BuildConfig.DATABASE_NAME
+        private const val DATABASE_PASSWORD = BuildConfig.DATABASE_PASSWORD
     }
 }

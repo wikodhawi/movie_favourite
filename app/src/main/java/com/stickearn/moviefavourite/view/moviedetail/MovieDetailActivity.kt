@@ -108,6 +108,7 @@ class MovieDetailActivity : AppCompatActivity() {
                     binding.rcyReviews.adapter = adapter
                     binding.rcyReviews.visibility = View.VISIBLE
                     binding.shimmerReview.visibility = View.GONE
+                    binding.nstMovieDetail.scrollTo(0,0)
                 }
             }
         })

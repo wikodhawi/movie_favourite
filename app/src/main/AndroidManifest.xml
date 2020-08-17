@@ -28,13 +28,9 @@
             android:configChanges="orientation|screenSize"
             />
         <activity
-            android:name=".view.login.LoginActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
-        <activity
             android:name=".view.main.activity.MainActivity"
             android:configChanges="orientation|screenSize"
-            android:windowSoftInputMode="adjustNothing">
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

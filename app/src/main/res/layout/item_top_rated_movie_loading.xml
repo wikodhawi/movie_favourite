@@ -6,7 +6,7 @@
         android:paddingEnd="20dp"
         android:orientation="vertical"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools">
+        >
 
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
@@ -22,6 +22,7 @@
                 android:layout_width="170dp"
                 android:layout_height="170dp"
                 android:scaleType="centerCrop"
+                android:contentDescription="@string/image"
                 android:src="@color/colorShimmerDefault"/>
 
         </androidx.cardview.widget.CardView>

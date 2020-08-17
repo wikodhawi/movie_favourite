@@ -19,20 +19,4 @@
         <item name="android:statusBarColor">@color/colorPrimary</item>
     </style>
 
-    <style name="ErrorTextInput" parent="Widget.AppCompat.TextView">
-        <item name="android:textColor">@color/colorTextInputError</item>
-        <item name="android:textSize">11dp</item>
-        <item name="android:layout_marginLeft">10dp</item>
-    </style>
-
-    <style name="ButtonCustom1">
-        <item name="android:textAllCaps">false</item>
-        <item name="android:background">@drawable/shape_two</item>
-        <item name="android:textColor">@color/md_white_1000</item>
-        <item name="android:fontFamily">@font/candara_bold</item>
-        <item name="android:textSize">@dimen/font_button2</item>
-        <item name="android:foreground">?attr/selectableItemBackground</item>
-    </style>
-
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 </resources>

@@ -3,15 +3,8 @@ package com.stickearn.moviefavourite.view.moviedetail.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
-import com.stickearn.moviefavourite.BuildConfig
-import com.stickearn.moviefavourite.R
 import com.stickearn.moviefavourite.databinding.ItemReviewBinding
-import com.stickearn.moviefavourite.databinding.ItemTopRatedMovieBinding
 import com.stickearn.moviefavourite.model.moviereview.MovieReviewDetail
-import com.stickearn.moviefavourite.model.popularmovie.PopularMovieDetail
-import com.stickearn.moviefavourite.view.main.adapter.TopRatedMovieAdapter
-import java.text.SimpleDateFormat
 
 class MovieReviewAdapter (private val reviewMovies: List<MovieReviewDetail>) : RecyclerView.Adapter<MovieReviewAdapter.ItemViewHolder>() {
 

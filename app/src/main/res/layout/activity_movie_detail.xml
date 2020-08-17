@@ -26,7 +26,8 @@
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
                     android:src="@color/colorLoading"
-                    app:layout_collapseMode="parallax" />
+                    app:layout_collapseMode="parallax"
+                    android:contentDescription="@string/image" />
 
                 <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolbar"
@@ -168,6 +169,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginVertical="20dp"
                 android:clickable="true"
+                android:focusable="true"
                 app:fabSize="normal"
                 android:src="@drawable/ic_favourite"
                 android:backgroundTint="@color/colorPrimary"
@@ -181,6 +183,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:clickable="true"
+                android:focusable="true"
                 app:fabSize="normal"
                 android:src="@drawable/ic_share"
                 android:backgroundTint="@color/colorPrimary"

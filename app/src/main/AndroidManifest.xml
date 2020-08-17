@@ -22,7 +22,7 @@
         <activity android:name=".view.favouritemovie.FavouriteMovieActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:configChanges="orientation|screenSize"
-            ></activity>
+            />
         <activity android:name=".view.moviedetail.MovieDetailActivity"
             android:theme="@style/AppTheme.NoActionBar"
             android:configChanges="orientation|screenSize"

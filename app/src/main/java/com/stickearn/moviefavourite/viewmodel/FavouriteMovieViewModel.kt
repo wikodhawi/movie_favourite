@@ -4,7 +4,6 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.stickearn.moviefavourite.base.BaseViewModel
 import com.stickearn.moviefavourite.model.popularmovie.PopularMovieDetail
-import com.stickearn.moviefavourite.repository.login.MovieDetailRepository
 import com.stickearn.moviefavourite.service.database.dao.PopularMovieDetailDao
 import kotlinx.coroutines.launch
 

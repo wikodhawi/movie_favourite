@@ -25,9 +25,6 @@ class DatabaseModule {
 
     fun provideAppDatabase(context: Context, supportFactory: SupportFactory): AppDatabase =
         Room.databaseBuilder(context, AppDatabase::class.java, DATABASE_NAME).allowMainThreadQueries().fallbackToDestructiveMigration().addCallback(object: RoomDatabase.Callback() {
-            override fun onCreate(db: SupportSQLiteDatabase) {
-                super.onCreate(db)
-            }
         }).openHelperFactory(supportFactory)
             .build()
 

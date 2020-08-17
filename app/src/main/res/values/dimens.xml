@@ -4,18 +4,6 @@
 
     <!-- half of distance between pages -->
     <!-- how much of adjacent pages is shown -->
-    <dimen name="back_width">26dp</dimen>
-    <dimen name="back_height">20dp</dimen>
-    <dimen name="back_margin_left">20dp</dimen>
-    <dimen name="back_margin_top">22dp</dimen>
-    <dimen name="marginWidgetToParent">25dp</dimen><!-- how much of adjacent pages is shown -->
-    <dimen name="padding_drawable_icon">21dp</dimen>
-    <dimen name="padding_bottom_edittext">15dp</dimen>
+    <!-- how much of adjacent pages is shown -->
 
-    <dimen name="font_button">18dp</dimen>
-
-    <dimen name="font_button2">16dp</dimen>
-
-    <dimen name="dimenHeightLogo">90dp</dimen>
-    <dimen name="app_bar_height">180dp</dimen>
 </resources>

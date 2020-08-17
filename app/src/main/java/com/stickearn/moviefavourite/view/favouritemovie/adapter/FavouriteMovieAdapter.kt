@@ -7,11 +7,9 @@ import com.bumptech.glide.Glide
 import com.stickearn.moviefavourite.BuildConfig
 import com.stickearn.moviefavourite.R
 import com.stickearn.moviefavourite.databinding.ItemFavouriteMovieBinding
-import com.stickearn.moviefavourite.databinding.ItemTopRatedMovieBinding
 import com.stickearn.moviefavourite.model.popularmovie.PopularMovieDetail
 import com.stickearn.moviefavourite.utilities.extension.setOnSafeClickListener
 import com.stickearn.moviefavourite.view.main.adapter.PopularMovieAdapter
-import com.stickearn.moviefavourite.view.main.adapter.TopRatedMovieAdapter
 import java.text.SimpleDateFormat
 
 class FavouriteMovieAdapter (private val popularMovies: List<PopularMovieDetail>, private val onClickCallback: PopularMovieAdapter.OnClickCallback) : RecyclerView.Adapter<FavouriteMovieAdapter.ItemViewHolder>() {

@@ -20,7 +20,6 @@ import com.stickearn.moviefavourite.view.main.adapter.TopRatedMovieAdapter
 import com.stickearn.moviefavourite.view.moviedetail.MovieDetailActivity
 import com.stickearn.moviefavourite.viewmodel.MainViewModel
 import kotlinx.android.synthetic.main.activity_main.*
-import org.koin.android.ext.android.bind
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : BaseActivity() {

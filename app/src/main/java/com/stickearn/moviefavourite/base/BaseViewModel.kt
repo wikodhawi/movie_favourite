@@ -15,6 +15,4 @@ val viewModelModule = module {
 
 
 open class BaseViewModel : ViewModel() {
-    val isLoading = MutableLiveData<Boolean>()
-    val errorMessage = MutableLiveData<String>()
 }

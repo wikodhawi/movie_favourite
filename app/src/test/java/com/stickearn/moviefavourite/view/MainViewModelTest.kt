@@ -1,23 +1,18 @@
 package com.stickearn.moviefavourite.view
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import androidx.test.core.app.ActivityScenario.launch
 import com.nhaarman.mockitokotlin2.whenever
 import com.stickearn.moviefavourite.model.popularmovie.PopularMovie
 import com.stickearn.moviefavourite.repository.login.MainRepository
 import com.stickearn.moviefavourite.viewmodel.MainViewModel
-import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import org.hamcrest.CoreMatchers
 import org.hamcrest.MatcherAssert
-import org.junit.Assert.assertThat
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
 import org.mockito.Mockito
-import org.mockito.Mockito.`when`
-
 
 @RunWith(JUnit4::class)
 class MainViewModelTest {

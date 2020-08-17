@@ -1,32 +1,15 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <string name="app_name">Movie Favourite</string>
-    <string name="action_sign_in">Log In</string>
-    <string name="welcome">"Welcome"</string>
-    <string name="register">Register</string>
 
-    <string name="registered_password">Registered Password</string>
-    <string name="please_login_to_access_full_feature">Please Log In to access full feature</string>
-    <string name="remember_me">Remember me</string>
-    <string name="forgot_password">Forgot Password</string>
-    <string name="did_not_have_account">"You don\'t have account? "</string>
-    <string name="copyright">Copyright 2020 </string>
-    <string name="registeredEmail">Registered Email</string>
-    <string name="srServerError">Server Error</string>
-    <string name="srSomethingWentWrongPleaseTryAgainLater">Something went wrong, please try again later</string>
-    <string name="srPleaseInputRegisteredEmail">Please insert registered email</string>
-    <string name="srPleaseInputPassword">Please input your password</string>
-    <string name="srFailedToLoginPleaseCheckYourUsernameAndPassword">Failed to login, please check your email or password</string>
     <string name="popular_movie">Popular Movie</string>
     <string name="top_rated">Top Rated</string>
     <string name="now_playing">Now Playing</string>
     <string name="movie">Movie</string>
-    <string name="image">image</string>
-    <string name="view">view</string>
-    <string name="overview">Description</string>
     <string name="review">Review</string>
     <string name="favourite">favourite</string>
     <string name="description">Description</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="addedToFavouriteMovie">Added to favourite movie</string>
     <string name="favouriteMovie">Favourite Movie</string>
+    <string name="image">image</string>
 </resources>

@@ -11,7 +11,7 @@ Architecture principles follow Google recommended [Guide to app architecture](ht
 
 The application is written entirely in Kotlin
 
-Android Jetpack is used as an Architecture glue including but not limited to ViewModel, LiveData, Lifecycles,  View and Data Binding.
+Android Jetpack is used as an Architecture glue including but not limited to ViewModel, LiveData, Lifecycles, Room with SQL Cipher,  View and Data Binding.
 
 Koin is used for dependency injection.
 
